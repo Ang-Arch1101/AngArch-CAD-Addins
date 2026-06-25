@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <!-- Override locally to point at a different AutoCAD version, e.g. 2026 -->
+    <AcadLibPath Condition="'$(AcadLibPath)' == ''">C:\Program Files\Autodesk\AutoCAD 2023</AcadLibPath>
+  </PropertyGroup>
+</Project>

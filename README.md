@@ -61,12 +61,12 @@ Files → Support File Search Path, or use a startup LISP file.
 
 | Column | Description |
 |--------|-------------|
-| No. | Sequential row number |
-| Cloud X / Y | Centroid of the revision cloud (drawing units) |
-| Revision | Text found nearest to the matched triangle |
-| Description | Text found nearest to the cloud centroid (excluding Revision text) |
-| Has △ | Yes / No — whether a triangle was matched |
-| Status | `OK` · `漏△` (missing triangle) · `漏字` (missing description) · `漏△漏字` |
+| No./編號 | Sequential row number 序號 |
+| Cloud X/雲線X · Cloud Y/雲線Y | Centroid of the revision cloud (drawing units) 雲線中心座標 |
+| Revision/版次 | Text found nearest to the matched triangle 最近三角形旁的文字 |
+| Description/說明 | Text found nearest to the cloud centroid (excluding Revision text) 雲線旁說明文字 |
+| Has △/有△ | Yes / No — whether a triangle was matched 是否有版次三角形 |
+| Status/狀態 | `OK` · `漏△` (missing triangle) · `漏字` (missing description) · `漏△漏字` |
 
 Rows with a status other than `OK` are highlighted yellow for quick review.
 

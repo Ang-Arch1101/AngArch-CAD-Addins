@@ -129,13 +129,13 @@ namespace AngArchCADAddins.Commands
             {
                 var ws = wb.Worksheets.Add("Revisions");
 
-                ws.Cell(1, 1).Value = "No.";
-                ws.Cell(1, 2).Value = "Cloud X";
-                ws.Cell(1, 3).Value = "Cloud Y";
-                ws.Cell(1, 4).Value = "Revision";
-                ws.Cell(1, 5).Value = "Description";
-                ws.Cell(1, 6).Value = "Has △";
-                ws.Cell(1, 7).Value = "Status";
+                ws.Cell(1, 1).Value = "No./編號";
+                ws.Cell(1, 2).Value = "Cloud X/雲線X";
+                ws.Cell(1, 3).Value = "Cloud Y/雲線Y";
+                ws.Cell(1, 4).Value = "Revision/版次";
+                ws.Cell(1, 5).Value = "Description/說明";
+                ws.Cell(1, 6).Value = "Has △/有△";
+                ws.Cell(1, 7).Value = "Status/狀態";
 
                 var hdr = ws.Row(1);
                 hdr.Style.Font.Bold = true;
